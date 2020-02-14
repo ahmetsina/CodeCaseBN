@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '11.4'
+use_frameworks!
+
+target 'CodeCaseBN' do
+  pod 'RxSwift', '~> 5'
+  pod 'RxCocoa', '~> 5'
+  pod 'Moya', '~> 13.0'
+
+
+  target 'CodeCaseBNTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'CodeCaseBNUITests' do
+    # Pods for testing
+  end
+
+end
